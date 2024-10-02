@@ -1,0 +1,32 @@
+---
+apiVersion: networking.gke.io/v1
+kind: ManagedCertificate
+metadata:
+  name: tusd
+spec:
+  domains:
+  - tusd.example.com
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: tusd
+  annotations:
+    kubernetes.io/ingress.class: "gce"
+    kubernetes.io/ingress.global-static-ip-name: tusd
+    networking.gke.io/v1beta1.FrontendConfig: tusd
+    networking.gke.io/managed-certificates: tusd
+spec:
+  defaultBackend:
+    service:
+      name: tusd
+      port:
+        number: 8080
+---
+apiVersion: networking.gke.io/v1beta1
+kind: FrontendConfig
+metadata:
+  name: tusd
+spec:
+  redirectToHttps:
+    enabled: true

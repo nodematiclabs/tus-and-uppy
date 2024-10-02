@@ -1,0 +1,699 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 630
+  viewPortHeight: 497
+  horizontalOffset: -182.5
+  verticalOffset: -33.13
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+  name: ""
+  author: ""
+  description: <p>DNS A Record</p><p>tusd.example.com =&gt; XX.XX.XX.XX</p>
+  experiments: []
+  experimentCols:
+    - field: name
+      header: Name
+  phases:
+    - name: Define
+      color: "#baf2e9"
+    - name: Measure
+      color: "#baf2e9"
+    - name: Analyze
+      color: "#baf2e9"
+    - name: Improve
+      color: "#baf2e9"
+    - name: Control
+      color: "#baf2e9"
+height: 497
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png);"></div><div
+        class="c-text"><div class="c-title">Service</div><div
+        class="c-short-description">Managing network access to a set of Pods in
+        a Kubernetes cluster</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: Kubernetes ServiceZlqNZ
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubernetes Service
+        shortDescription: Managing network access to a set of Pods in a Kubernetes cluster
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Kubernetes Service
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubernetes Service
+      editableName: Service
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Kubernetes Service
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc_jqkb9e.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300528/sds_logos/Kubernetes/Transparent/svc__044448_bjjila.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300529/sds_logos/Kubernetes/Transparent/svc_Black_87_cqmw6x.png
+      color: "#416bdd"
+      controlText: Service
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 314
+    offsetY: 272
+    zIndex: 0
+    inEdges:
+      - Straight ConnectorAhVlL
+    outEdges:
+      - Straight ConnectorOX58b
+      - Dashed Straight Nondirectional ConnectorF7AuiiM1vS
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300497/sds_logos/Kubernetes/Transparent/ing_Black_87_dygsxc.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300497/sds_logos/Kubernetes/Transparent/ing_qydvcm.png);"></div><div
+        class="c-text"><div class="c-title">Ingress</div><div
+        class="c-short-description">Routing external traffic to internal
+        services within a cluster</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: Kubernetes IngressuaB34
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubernetes Ingress
+        shortDescription: Routing external traffic to internal services within a cluster
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Kubernetes Ingress
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubernetes Ingress
+      editableName: Ingress
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Kubernetes Ingress
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300497/sds_logos/Kubernetes/Transparent/ing_qydvcm.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300497/sds_logos/Kubernetes/Transparent/ing__044448_tirwdd.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300497/sds_logos/Kubernetes/Transparent/ing_Black_87_dygsxc.png
+      color: "#416bdd"
+      controlText: Ingress
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 314
+    offsetY: 146
+    zIndex: 1
+    inEdges:
+      - Orthogonal ConnectorAmPmK
+      - Dashed Orthogonal ConnectortshaH
+    outEdges:
+      - Straight ConnectorAhVlL
+      - Dashed Straight Nondirectional ConnectorF7AuiiM1vSFTqQ5
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #416bdd;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png);"></div><div
+        class="c-text"><div class="c-title">Deployment (tusd)</div><div
+        class="c-short-description">Automating the deployment, scaling, and
+        management of containerized applications</div><div class="c-bottom"><div
+        class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Kubernetes</div></div></div></div></div>'
+    id: Kubernetes DeploymentTBEQV
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Kubernetes Deployment
+        shortDescription: Automating the deployment, scaling, and management of
+          containerized applications
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Kubernetes Deployment
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Kubernetes Deployment
+      editableName: Deployment (tusd)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Kubernetes Deployment
+      category: 7
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_lpyf1t.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300495/sds_logos/Kubernetes/Transparent/deploy__044448_pqowd7.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1673300494/sds_logos/Kubernetes/Transparent/deploy_Black_87_ysojs1.png
+      color: "#416bdd"
+      controlText: Deployment
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 314
+    offsetY: 398
+    zIndex: 2
+    inEdges:
+      - Straight ConnectorOX58b
+    outEdges:
+      - Dashed Straight Nondirectional ConnectorF7Aui
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Google
+        Kubernetes Engine</div></div><hr class="c-underrule"
+        style="background-color: #3871e0"></div>'
+    id: Google Kubernetes Enginee5H9h
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Kubernetes Engine
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Kubernetes Engine
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Kubernetes Engine
+      editableName: Google Kubernetes Engine
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Kubernetes Engine
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_l2vvbq.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine__044448_l7kry7.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/google_kubernetes_engine_Black_87_lho249.png
+      color: "#3871e0"
+      controlText: Google Kubernetes Engine
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      location: "[GCP] us-central1"
+      latitude: 41.26194
+      longitude: -95.86083
+    width: 220.00000000000006
+    height: 124
+    offsetX: 655
+    offsetY: 272
+    zIndex: 5
+    inEdges:
+      - Dashed Straight Nondirectional ConnectorF7Aui
+      - Dashed Straight Nondirectional ConnectorF7AuiiM1vS
+      - Dashed Straight Nondirectional ConnectorF7AuiiM1vSFTqQ5
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3d5c5c; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Web
+        Application (w/ Uppy)</div></div><hr class="c-underrule"
+        style="background-color: #3d5c5c"></div>'
+    id: Web Applicationh5x4b
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Web Application
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Web Application
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Web Application
+      editableName: Web Application (w/ Uppy)
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Application
+          type: Storage
+          portsIn:
+            put: deployed
+            get: request
+          portsOut:
+            stored: response
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Application
+      name: Web Application
+      category: 6
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_3d5c5c_iswqan.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_zbzaaw.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/Web_Application_Black_87_pdwccj.png
+      color: "#3d5c5c"
+      controlText: Web Application
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+      latitude: null
+      longitude: null
+    width: 220.00000000000003
+    height: 124
+    offsetX: -41
+    offsetY: 178
+    zIndex: 9
+    outEdges:
+      - Orthogonal ConnectorAmPmK
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/certificate_manager_Black_87_p1ziaa.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/certificate_manager_pm9tsq.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>Certificate Manager</div></div><hr
+        class="c-underrule" style="background-color: #3871e0"></div>'
+    id: Google Certificate Managerq2gXb
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Certificate Manager
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Certificate Manager
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Certificate Manager
+      editableName: Certificate Manager
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Certificate Manager
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/certificate_manager_pm9tsq.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/certificate_manager__044448_rz9nqb.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/certificate_manager_Black_87_p1ziaa.png
+      color: "#3871e0"
+      controlText: Certificate Manager
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 169
+    height: 124
+    offsetX: 581.5
+    offsetY: 92
+    zIndex: 11
+    outEdges:
+      - Dashed Orthogonal ConnectortshaH
+connectors:
+  - id: Straight ConnectorAhVlL
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 314
+      y: 196
+    targetPoint:
+      x: 314
+      y: 222
+    sourceID: Kubernetes IngressuaB34
+    targetID: Kubernetes ServiceZlqNZ
+    addInfo:
+      viewConnector: 0
+    zIndex: 3
+  - id: Straight ConnectorOX58b
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 314
+      y: 322
+    targetPoint:
+      x: 314
+      y: 348
+    sourceID: Kubernetes ServiceZlqNZ
+    targetID: Kubernetes DeploymentTBEQV
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Dashed Straight Nondirectional ConnectorF7Aui
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 449.32
+      y: 348
+    targetPoint:
+      x: 545
+      y: 312.65
+    sourceID: Kubernetes DeploymentTBEQV
+    targetID: Google Kubernetes Enginee5H9h
+    addInfo:
+      viewConnector: 0
+    zIndex: 6
+  - id: Dashed Straight Nondirectional ConnectorF7AuiiM1vS
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 464
+      y: 272
+    targetPoint:
+      x: 545
+      y: 272
+    sourceID: Kubernetes ServiceZlqNZ
+    targetID: Google Kubernetes Enginee5H9h
+    addInfo:
+      viewConnector: 0
+    zIndex: 7
+  - id: Dashed Straight Nondirectional ConnectorF7AuiiM1vSFTqQ5
+    targetDecorator:
+      shape: None
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    sourcePoint:
+      x: 449.32
+      y: 196
+    targetPoint:
+      x: 545
+      y: 231.35
+    sourceID: Kubernetes IngressuaB34
+    targetID: Google Kubernetes Enginee5H9h
+    addInfo:
+      viewConnector: 0
+    zIndex: 8
+  - id: Orthogonal ConnectorAmPmK
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 69
+      y: 178
+    targetPoint:
+      x: 164
+      y: 146
+    sourceID: Web Applicationh5x4b
+    targetID: Kubernetes IngressuaB34
+    segments:
+      - type: Orthogonal
+    annotations:
+      - id: tKWsk
+        content: via tus
+        style:
+          fill: white
+          bold: true
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Dashed Orthogonal ConnectortshaH
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+      strokeDashArray: 2 2
+    constraints: 470654
+    sourcePoint:
+      x: 497
+      y: 92
+    targetPoint:
+      x: 464
+      y: 146
+    sourceID: Google Certificate Managerq2gXb
+    targetID: Kubernetes IngressuaB34
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 12
+selectedItems:
+  width: 0
+  height: 0

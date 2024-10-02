@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uppy File Uploader Example</title>
+    <link href="https://releases.transloadit.com/uppy/v4.4.0/uppy.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        #uppy {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Uppy File Uploader</h1>
+        <p>Use the uploader below to select and upload your files:</p>
+        <div id="uppy"></div>
+    </div>
+
+
+    <script type="module">
+        import { Dashboard, Uppy, Tus } from "https://releases.transloadit.com/uppy/v4.4.0/uppy.min.mjs"
+        
+        const uppy = new Uppy()
+            .use(Dashboard, {
+                inline: true,
+                target: '#uppy',
+                height: 470,
+                width: '100%',
+                showProgressDetails: true
+            })
+            .use(Tus, { endpoint: 'https://tusd.example.com/files' })
+        uppy.on('complete', (result) => {
+            console.log('Upload complete! We have uploaded these files:', result.successful)
+        })
+    </script>
+</body>
+</html>
